@@ -1,62 +1,93 @@
+p{
+  font-family: sans-serif;
+}
 body{
+  display:flex;
+  flex-direction: column;
   width: 210mm;
   height: 297mm; 
   padding: 2px;
+
 }
 
 .header{
-  display: grid;
-  background-color: lightblue;
-  grid-template-columns: 200px 1fr;
-  margin-bottom: 10px;
-  column-gap: 10px;
-  border: 3px;
+  width: 200mm;
+  height: 100mm;
+  margin: 5mm;
+  border-width:1px ;
+  border-color: grey;
   border-style: solid;
-
-}
-
-.hpart1{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  background-color: blue;
-  row-gap: 3px;
+  border-radius: 3px;
+  box-shadow: outset 5px 5px 5px rgb(0,0,0,0.05);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   
 }
 
-.taswirti{
-  height: 100px;
-  width: 100px;
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-bottom: 20px;
-  border-radius: 50px;
-}
 .contact{
+  width: 50mm;
   display: flex;
-  flex-direction:row;
+  flex-direction: column;
+}
+
+.taswirti{
+  display: flex;
+  
+}
+.taswirti1{
+  width: 114px;
+  height: 114px;
+  padding-top: 26px;
+  padding-left:37px ;
+  border-radius: 55px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.git,.linkedin,.email,.phone{
+  height: 10mm;
+  flex: 1;
+}
+
+.general-info{
+  padding-top: 5mm;
+  padding-left: 5mm;
+  padding-right: 5mm;
+  flex: 1;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 37px;
+  background-color: bisque;
+}
+.info1,.info2{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.info1{
+  padding-left: 2mm;
+  padding-right: 3mm;
+}
+.certificates,.experience,.languages,.skills,.education,.other{
+  flex: 1;
+  
+}
+
+.contact1{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  border-width:1px ;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 3px;
+  margin-top: 4mm;
 }
-
-.git{
-  height: 10px;
-  width: 10px;
-}
-.phone{
-  height: 10px;
-}
-.email{
-  height: 10px;
-}
-.linkedin{
-  height: 10px;
-}
-
-
-
-
-.cv{
-  display: grid;
-  grid-template-columns:1fr 1fr;
-  background-color: lightpink;
-}
-
