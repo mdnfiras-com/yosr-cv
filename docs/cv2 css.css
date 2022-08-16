@@ -1,50 +1,23 @@
 body{
   font-family: ubuntu;
   font-weight: lighter;
-}
-.header{
-  background-color: rgb(237, 209, 168);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
+  padding: 10px;
+  width: 210mm;
+  height: 297mm;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items:center;
-  box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
-}
-.header button{
-  display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 15px;
-  border: none;
-  border-radius: 10px;
-  background-color:rgb(220, 188, 141) ;
-  box-shadow: 3px 3px 8px rgb(0, 0, 0,0.3);
-
-}
-.header button:hover{
-  background-color: blanchedalmond;
-  transition: background-color 1s;
-}
-.header button:active{
-  background-color: rgb(212, 203, 188);
-  transition: background-color 1s;
 }
 
 .side-bar{
   display: flex;
   flex-direction: column;
-  position: fixed;
+  
   width: 250px;
   border-radius: 5px;
-  bottom: 5px;
-  top: 80px;
+  
   box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
   background-color: rgb(237, 209, 168);
+  padding-top: 20px;
 }
 p{
   padding-left: 10px;
@@ -54,21 +27,8 @@ p{
 .icons img{
   height: 20px;
 }
-.taswira{
-  background-color: rgb(220, 188, 141);
-}
-.taswirti{
-  width: 150px;
-  margin-left: 50px; 
-  margin-right: 50px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  border-radius: 50px;
-}
-
-
 .about-me{
-  margin-top: 80px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   background-color: blanchedalmond;
