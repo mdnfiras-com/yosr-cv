@@ -2,17 +2,19 @@ body{
   font-family: ubuntu;
   font-weight: lighter;
   padding: 10px;
-  height: 3508px;
-  width: 2480px;
+  height: 1754px;
+  width: 1240px;
   display: flex;
   flex-direction: row;
+  margin:0;
+  box-sizing: border-box;
 }
 
 .side-bar{
   display: flex;
   flex-direction: column;
   margin-right: 20px;
-  width: 250px;
+  width: 20%;
   border-radius: 5px;
   padding-left: 20px;
   box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
@@ -35,13 +37,13 @@ p{
 }
 
 .about-me{
-  margin-top: 10px;
+  
   padding-left: 20px;
   background-color: blanchedalmond;
   flex: 1;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
-  width:2210px;
+  width:80%;
 }
 
 
@@ -52,7 +54,7 @@ p{
   box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
   flex: 1;
   margin-top: 20px;
-  width:2210px;
+  width:80%;
 }
 
 .certificates{
@@ -62,7 +64,7 @@ p{
   box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
   flex: 1;
   margin-top: 20px;
-  width:2210px;
+  width:80%;
 }
 
 
@@ -73,7 +75,7 @@ p{
   box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
   flex: 1;
   margin-top: 20px;
-  width:2210px;
+  width:80%;
 }
 
 
@@ -84,7 +86,7 @@ p{
   box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15);
   flex: 1;
   margin-top: 20px;
-  width:2210px;
+  width:80%;
 }
 a{
   color: black;
